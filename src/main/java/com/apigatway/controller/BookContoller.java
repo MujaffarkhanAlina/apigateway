@@ -46,8 +46,20 @@ public class BookContoller {
 	 
 	  @GetMapping("getbooks3")
 	 public List<Book> getBook3(){
+<<<<<<< HEAD
+		 
+		 return bookList;
+	 }
+	 
+	   @GetMapping("getbooks4")
+	 public List<Book> getBook4(){
+		 
+		 return bookList;
+	 }
+=======
     return bookList;
 }
+>>>>>>> 1eb9ac6a85c3d7b9316a08ce44b94f7f39d3928d
 
 
 }
