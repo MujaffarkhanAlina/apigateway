@@ -37,12 +37,17 @@ public class BookContoller {
 		 return bookList;
 	 }
 	 
-	 
-@GetMapping("getbooks2")
+
+	 @GetMapping("getbooks2")
 	 public List<Book> getBook2(){
 		 
 		 return bookList;
 	 }
+	 
+	  @GetMapping("getbooks3")
+	 public List<Book> getBook3(){
+    return bookList;
+}
 
 
 }
