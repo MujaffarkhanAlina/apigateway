@@ -81,5 +81,12 @@ public class BookContoller {
 		 return bookList;
 	 }
 
-
+	 @GetMapping("getbooks7")
+	 public List<Book> getBook7(){
+		 
+		 return bookList;
+	 }
+	
+	
+	
 }
