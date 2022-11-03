@@ -92,4 +92,10 @@ public class BookContoller {
 		 return bookList;
 	 }
 
+		 @GetMapping("getbooks100")
+	 public List<Book> getBook99(){
+		 
+		 return bookList;
+	 }
+
 }
