@@ -15,13 +15,13 @@ import com.apigatway.model.Book;
 @RequestMapping("/book")
 public class BookContoller {
 
-      List<Book> bookList = new ArrayList();
+      List<Book> bookList1 = new ArrayList();
 
 	 // modify master branch
 	 @PostMapping("/add")
 	 public List<Book> addBook(@RequestBody Book book){
 		 
-		 bookList.add(book);
+		 bookList1.add(book);
 		 return bookList;
 	 }
 	 
